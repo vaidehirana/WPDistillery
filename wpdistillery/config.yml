@@ -98,10 +98,11 @@ plugins_inactive:
 setup:
   wp: true
   settings: true
-  theme: true
-  plugins: true
-  cleanup: true
-  # adjust what data you want to be deleted within the cleanup (requires `cleanup: true`)
-  comment: true
-  posts: true
-  files: true
+  theme: false
+  plugins: false
+  cleanup: false
+  # adjust what data you want to be deleted within the cleanup (required `cleanup: true`)
+  comment: false
+  posts: false
+  files: false
+  themes: false
